@@ -1,0 +1,25 @@
+{
+  "name": "review-service",
+  "version": "1.0.0",
+  "description": "Review service",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SathishGajendran/review-service.git"
+  },
+  "author": "Sathish G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SathishGajendran/review-service/issues"
+  },
+  "homepage": "https://github.com/SathishGajendran/review-service#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  }
+}
